@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-wrap: wrap;
+}
+header .logo{
+    width : 10%;
+    height: 90%;
+}
+.logo{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+header .titre{
+    
+    width: 90%;
+    height: 90%;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: xx-large;
+}
+header .liens{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 12%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.liens a{
+    font-size: large;
+}
+main{
+    display: flex;
+    
+    width: 100%;
+    height: 65%;
+    flex-wrap: wrap;
+}
+main .gauche{
+    
+    width : 25%;
+    height: 100%;
+}
+main .questions{
+    background-color: rgb(230, 230, 230);
+    width : 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction:column;
+}
+.photos{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    width : 50%;
+    height: 100%;
+}
+.internaute{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.satisfait{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#comment{
+    width : 100%;
+    height : 50%;
+}
+main .droite{
+    
+    width : 25%;
+    height: 100%;
+}
+.affiche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .boite{
+    display: flex;
+    width : 75%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+main .synopsis{
+    
+    width : 100%;
+    height: 50%;
+}
+.synopsis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .acteurs{
+    width : 100%;
+    height: 50%;
+}
+.acteurs{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+footer{
+    
+    width : 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.affiche img{
+    width: 100%;
+    height: 100%;
+}
+.titre img{
+    width: 70%;
+    height: auto;
+}
+.synopsis h2{
+    color: white;
+}
+.acteurs img{
+    width : 17%;
+    height: 100%;
+}
+footer h2{
+    color: white;
+}
+footer .void{
+    height: 100%;
+    width : 25%;
+}
+footer .noms{
+    display : flex;
+    width : 75%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.synopsis .void{
+    height: 100%;
+    width : 10%;
+}
+.gauche{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+.droite{
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.burger-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+}
+.burger-icon{
+    cursor: pointer;
+}
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(230, 230, 230);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.menu li{
+    padding: 15px;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}

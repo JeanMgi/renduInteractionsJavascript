@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+</head>
+<body>
+    <header>
+        <section class="logo">
+            <img src="images/continental.jpg" alt="Logo du Continental Hotel">
+        </section>
+        <section class="titre">
+            <img src="images/banner.png" alt="John Wick menacé par plusieurs pistolets">
+        </section>
+        <nav class="liens">
+            <a href="index.html">John Wick</a>
+            <a href="john2.html">John Wick 2</a>
+            <a href="john3.html">John Wick 3 : Parabellum</a>
+            <a href="john4.html">John Wick : Chapitre 4</a>
+            <a href="formulaire.html">Contact</a>
+            <a href="galerie.html">Photos</a>
+        </nav>
+    </header>
+    <main>
+        <section class="gauche"></section>
+        <section class="questions">
+            <h1>Formulaire</h1>
+            <fieldset class="internaute">
+                <label for="prenom">Prenom :</label>
+                <input type="text" name="" id="prenom">
+                <label for="nom">Nom :</label>
+                <input type="text" name="" id="nom">
+                <label for="mail">Adresse mail :</label>
+                <input type="email" name="" id="mail" required>
+            </fieldset>
+            <fieldset class="satisfait">
+                <legend>Êtes-vous satisfait du site ?</legend>
+                <label for="tres">Très satisfait</label>
+                <input type="radio" name="satis" id="tres">
+                <label for="oui">Satisfait</label>
+                <input type="radio" name="satis" id="oui">
+                <label for="moyen">Pas d'avis</label>
+                <input type="radio" name="satis" id="moyen" checked>
+                <label for="non">Pas satisfait</label>
+                <input type="radio" name="satis" id="non">
+                <label for="tout">Pas du tout satisfait</label>
+                <input type="radio" name="satis" id="tout">
+            </fieldset>
+            <fieldset>
+                <legend>Avez-vous un retour à nous faire ?</legend>
+                <label for="comment"></label>
+                <input type="text" name="" id="comment">
+            </fieldset>
+            <fieldset classe="buttons">
+                <label for="reset"></label>
+                <input type="reset" value="Reset" id="reset">
+                <label for="envoi"></label>
+                <input type="button" value="Submit" id="envoi">
+            </fieldset>
+        </section>
+        <section class="droite"></section>
+    </main>
+    <footer>
+        <section class="void"></section>
+        <section class="noms">
+        </section>
+        <section class="mode">
+            <input type="button" value="Mode" id="clair">
+        </section>
+    </footer>
+    <script src="js/formulaire.js"></script>
+</body>
+</html>

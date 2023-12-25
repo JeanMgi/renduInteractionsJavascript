@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-wrap: wrap;
+}
+header .logo{
+    width : 10%;
+    height: 90%;
+}
+.logo{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+header .titre{
+    
+    width: 90%;
+    height: 90%;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: xx-large;
+}
+header .liens{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 12%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.liens a{
+    font-size: large;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 65%;
+    flex-wrap: wrap;
+}
+main .affiche{
+    width : 25%;
+    height: 100%;
+}
+.affiche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .boite{
+    display: flex;
+    width : 75%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+main .synopsis{
+    
+    width : 100%;
+    height: 50%;
+}
+.synopsis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .acteurs{
+    width : 100%;
+    height: 50%;
+}
+.acteurs{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+footer{
+    
+    width : 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.affiche img{
+    width: 100%;
+    height: 100%;
+}
+.titre img{
+    width: 70%;
+    height: auto;
+}
+.synopsis h2{
+    color: white;
+}
+.acteurs img{
+    width : 17%;
+    height: 100%;
+}
+footer h2{
+    color: white;
+}
+footer .void{
+    height: 100%;
+    width : 25%;
+}
+footer .noms{
+    display : flex;
+    width : 75%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.synopsis .void{
+    height: 100%;
+    width : 10%;
+}
+@media screen and (max-width: 1024px) {
+    body{
+        background-color: black;
+        width: 100vw;
+        height: auto;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        display : none;
+    }
+    .noms h2{
+        display: none;
+    }
+}
+@media all and (max-device-width: 600px) {
+    body{
+        background-color: black;
+        width: 100vw;
+        height: auto;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        display : none;
+    }
+    .affiche{
+        display: none;
+    }
+    .noms h2{
+        display: none;
+    }
+}
